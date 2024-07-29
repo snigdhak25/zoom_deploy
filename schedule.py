@@ -13,7 +13,7 @@ app = Flask(__name__)
 # Zoom OAuth credentials
 CLIENT_ID = '9B1ViQTeTPCS6FIiCQ8n0QA'
 CLIENT_SECRET = 'CHbcOvyUtWpcrNN3KCtK21jhAPietNT'
-REDIRECT_URI = 'https://deploymeet.onrender.com/zoom/callback'
+REDIRECT_URI = 'https://zoom-deploy-hcmv.onrender.com/zoom/callback'
 
 TOKEN_FILE = 'zoom_tokens.json'
 IST = pytz.timezone('Asia/Kolkata')  # IST Timezone
